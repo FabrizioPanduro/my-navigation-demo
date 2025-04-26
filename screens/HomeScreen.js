@@ -5,7 +5,7 @@ const HomeScreen = () => {
   return (
     <View>
       <Text>HomeScreen</Text>
-      <Button title='Go to A' onPress={() => {navigation.navigate("A")}}></Button>
+      <Button title="Go to A" onPress={() => navigation.navigate("A")} />
     </View>
   );
 }

@@ -3,12 +3,11 @@ import React from 'react';
 
 const AScreen = () => {
   return (
-    <View style={styles.container}>
-      <Text>AScreen</Text>
-      <Button></Button>
-      <StatusBar style="auto" />
-    </View>
-  );
+      <View>
+        <Text>AScreen</Text>
+        <Button title='Go to B' onPress={() => navigation.navigate("B")}/>
+      </View>
+    );
 }
 
 export default AScreen

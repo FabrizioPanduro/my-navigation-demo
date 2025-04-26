@@ -3,12 +3,11 @@ import React from 'react';
 
 const BScreen = () => {
   return (
-    <View style={styles.container}>
-      <Text>BScreen</Text>
-      <Button></Button>
-      <StatusBar style="auto" />
-    </View>
-  );
+      <View>
+        <Text>BScreen</Text>
+        <Button title='Go to C' onPress={() => navigation.navigate("C")}/>
+      </View>
+    );
 }
 
 export default BScreen
